@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tricia's Portfolio</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/f15e93994d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <section id="about">
+    <nav>
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+    <h1>tricia</h1>
+    <h2>I'm a visual designer and front end developer.</h2>
+    <p class="header-paragraph">With a background in teaching and a knack for beautiful design,
+      I focus on a lot on color, simplicity, consistency, and accessible design.
+      Before my venture into the world of design and development, I worked as an English Teacher in South Korea for almost four years.</p>
+    <img class="pink-squares" src="img/circles.png" alt="circles">
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <p class="section-title">Skills</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <i class="fas fa-code icons"></i>
+          <p>HTML5</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="fab fa-css3 icons"></i>
+          <p>CSS3</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <span class="long-icons"><i class="fab fa-bootstrap icons"></i></span>
+          <p>Bootstrap</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <span class="long-icons"><i class="fas fa-code icons"></i></span>
+          <p>Javascript</p>
+        </div>
+        <div class="skills-studies">
+          <p class="skills-paragraph2">The Modern Javascript BootCamp By Colt Steele<br>April 2020 - present</p>
+          <p class="skills-paragraph2">The 2020 Web Development Bootcamp By Angela Yu<br>Febuary 2020 - present</p>
+          <p class="skills-paragraph2">Advanced CSS and SASS, Flexbox, Grid, Animations by Jonas Schmedtmann<br>Febuary 2020 - April 2020</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work">
+    <p class="section-title">Work</p>
+    <div class="container-fluid, card-top">
+      <!-- First row -->
+      <div class="row">
+    <div class="card border-0 col-lg-4" style="width: 18rem;">
+    <img src="img/astridnyc-poster.png" class="card-img-top" alt="astrid poster">
+    <div class="card-body">
+      <h5 class="card-title">Astrid Boutique</h5>
+      <a href="#" class="btn btn-dark btn-sm">View</a>
+    </div>
+  </div>
+  <div class="card border-0 col-lg-4" style="width: 18rem;">
+  <img src="img/cosmetics-poster.png" class="card-img-top" alt="cosmetics poster">
+  <div class="card-body">
+    <h5 class="card-title">Honest Cosmetics</h5>
+    <a href="#" class="btn btn-dark btn-sm">View</a>
+  </div>
+</div>
+<div class="card border-0 col-lg-4" style="width: 18rem;">
+<img src="img/gamerdate.png" class="card-img-top" alt="Gamerdate poster">
+<div class="card-body">
+  <h5 class="card-title">Gamerdate Site Page</h5>
+  <a href="#" class="btn btn-dark btn-sm">View</a>
+  <a href="#" class="btn btn-dark btn-sm">Live Code</a>
+</div>
+</div>
+<!-- Second row -->
+<div class="card border-0 col-lg-4" style="width: 18rem;">
+<img src="img/lololove-poster.png" class="card-img-top" alt="Concert poster">
+<div class="card-body">
+  <h5 class="card-title">Lo Lo Love Concert</h5>
+  <a href="#" class="btn btn-dark btn-sm">View</a>
+  </div>
+</div>
+<div class="card border-0 col-lg-4" style="width: 18rem;">
+<img src="img/luna-poster-.png" class="card-img-top" alt="shop poster">
+<div class="card-body">
+  <h5 class="card-title">Shop Luna</h5>
+  <a href="#" class="btn btn-dark btn-sm">View</a>
+</div>
+</div>
+<div class="card border-0 col-lg-4" style="width: 18rem;">
+<img src="img/design-proposal.png" class="card-img-top" alt="design poster">
+<div class="card-body">
+  <h5 class="card-title">Design Proposal</h5>
+  <a href="#" class="btn btn-dark btn-sm">View</a>
+  </div>
+</div>
+</div>
+  </section>
+
+    <!-- Contact -->
+  <section id="contact">
+    <p class="section-title">Contact Me</p>
+       <form action="mailto:tjerome144@gmail.com" method="post" enctype="text/plain" class="form">
+         <label>Name:</label>
+         <input type="text" name="Name" value=""><br>
+         <label>Email:</label>
+         <input type="email" name="Email" value="" required><br>
+         <label>Message:</label><br>
+         <textarea name="Message" rows="4" cols="30"></textarea><br>
+         <input type="submit" name="">
+       </form>
+  </section>
+    <!-- Footer -->
+  <footer><p class="footer-text">© Patricia Jerome </p></footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

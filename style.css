@@ -1,0 +1,139 @@
+/*font-family: 'Cutive Mono', monospace;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Roboto Slab', serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cutive Mono', monospace;
+  padding: 0 10%;
+
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1rem;
+}
+
+/*** Header Section ***/
+.header-paragraph {
+  padding-right: 40%;
+  padding-bottom: 10%;
+}
+
+.pink-squares {
+  float: right;
+  width: 40%;
+}
+
+/*** Header NAV Section ***/
+nav {
+  background-color: black;
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+  text-decoration: none;
+  word-spacing: 2rem;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/*** Skills Section ***/
+.skills-container {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.section-title {
+  font-weight: bolder;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.icons {
+  padding-top: 25%;
+  padding-left: 10%;
+}
+
+.long-icons{
+padding-left: 20%;
+}
+
+.skills-studies {
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 2%;
+  padding-bottom: 10%;
+}
+
+/*** Work Section ***/
+#work {
+  padding-bottom: 10%;
+}
+
+.card-top {
+  padding-top: 5%;
+}
+
+/*** Contact Section ***/
+form {
+  padding: 0 35% 7%;
+}
+
+img {
+  transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  width: 105%;
+}
+
+/*** Footer Section ***/
+.footer-text {
+  font-size: .8rem;
+}
+
+@media only screen and (max-width: 988px){
+
+  #work {
+    padding-left: 15%;
+    padding-bottom: 8%;
+    text-align: center;
+  }
+
+  form {
+    padding: 0;
+    text-align: center;
+  }
+
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    width: 50%;
+  }
+
+}
